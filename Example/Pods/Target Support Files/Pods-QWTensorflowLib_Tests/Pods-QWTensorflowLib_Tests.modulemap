@@ -1,0 +1,6 @@
+framework module Pods_QWTensorflowLib_Tests {
+  umbrella header "Pods-QWTensorflowLib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module QWTensorflowLib {
+  umbrella header "QWTensorflowLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

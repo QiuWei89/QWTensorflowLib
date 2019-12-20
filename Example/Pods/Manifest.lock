@@ -1,0 +1,16 @@
+PODS:
+  - QWTensorflowLib (0.1.0)
+
+DEPENDENCIES:
+  - QWTensorflowLib (from `../`)
+
+EXTERNAL SOURCES:
+  QWTensorflowLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QWTensorflowLib: c71590daa76349d1f81faac271a79b52c1f4a347
+
+PODFILE CHECKSUM: 0ae2f070cb63a0b5bf3744748fb2e83d891d5b9e
+
+COCOAPODS: 1.8.4

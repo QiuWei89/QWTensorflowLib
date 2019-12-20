@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		ACCF2C9A797FDDB9DA5E34CFA70E20E8 /* QWTensorflowLib */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C74425E3CC831AF2F4C0E01B9B6B2C20 /* Build configuration list for PBXAggregateTarget "QWTensorflowLib" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = QWTensorflowLib;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		3218E14A9FAE4BF41DB1126C267CAD51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		53BD8D627E66967607A831AAC3B01FC8 /* Pods-QWTensorflowLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 758C7D4D32CBAED6ECB9AE949F156297 /* Pods-QWTensorflowLib_Example-dummy.m */; };
+		5A928C6AE823AC3A673FB6971665A3AA /* Pods-QWTensorflowLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D7F0BAEE968137D9AC7A7C7E03007A1 /* Pods-QWTensorflowLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2F5C12714AEED39D7B98E8BA632B053 /* Pods-QWTensorflowLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F017B9F56C7A6A0844C446F50B14B3D8 /* Pods-QWTensorflowLib_Tests-dummy.m */; };
+		E05C59D0CDF5B65A703BA78D1FA03D6D /* Pods-QWTensorflowLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40217258DA7A7EE6EE1B592E7BE160C6 /* Pods-QWTensorflowLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7FCE3E43A85324237B6CA38895684BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D7B38DD478354428279B84F59310974 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1334F4062AF5361B195AA6AC7FC55ECE;
+			remoteInfo = "Pods-QWTensorflowLib_Example";
+		};
+		C032AFC3F5505D2523773A87648D16DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACCF2C9A797FDDB9DA5E34CFA70E20E8;
+			remoteInfo = QWTensorflowLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		149CC2B1EA5198BA31021AB47C04094A /* Pods-QWTensorflowLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QWTensorflowLib_Example-Info.plist"; sourceTree = "<group>"; };
+		23A7041CE14A0845F884AD7B92736207 /* Pods-QWTensorflowLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QWTensorflowLib_Example.modulemap"; sourceTree = "<group>"; };
+		28D959D3AFD1E6FD74AD78D909C2DB55 /* Pods-QWTensorflowLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QWTensorflowLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3D7F0BAEE968137D9AC7A7C7E03007A1 /* Pods-QWTensorflowLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QWTensorflowLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		40217258DA7A7EE6EE1B592E7BE160C6 /* Pods-QWTensorflowLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QWTensorflowLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		567195E8A16B802C8B8E36E259707F24 /* Pods_QWTensorflowLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QWTensorflowLib_Example.framework; path = "Pods-QWTensorflowLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EFBF815B53455A9EA6346BDBD23B2AE /* Pods-QWTensorflowLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QWTensorflowLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		66E88D891FDCAD298691C15238D1D9B4 /* Pods-QWTensorflowLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QWTensorflowLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6950277918DE425A8FD63B544BB3A699 /* Pods-QWTensorflowLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QWTensorflowLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7425112B05C393333DDC645B02F2D34E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		746F61FFC73E3482447CE3122364E4D2 /* Pods-QWTensorflowLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QWTensorflowLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		758C7D4D32CBAED6ECB9AE949F156297 /* Pods-QWTensorflowLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QWTensorflowLib_Example-dummy.m"; sourceTree = "<group>"; };
+		87C1FA65C9F6EED0B4DDCE2BBC9E0D27 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8BB9F9992422C432A5E6DCD7D48F925F /* Pods_QWTensorflowLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QWTensorflowLib_Tests.framework; path = "Pods-QWTensorflowLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C5C482F441989634BFD4A35E972BE07 /* Pods-QWTensorflowLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QWTensorflowLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AFD364057C144D27A8D0CD5A64BE7B75 /* QWTensorflowLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QWTensorflowLib.xcconfig; sourceTree = "<group>"; };
+		B229DDC0892CF5FF21EAA5CB179529D3 /* Pods-QWTensorflowLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QWTensorflowLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B382546E027437C45E4AF36EFFDB07E6 /* Pods-QWTensorflowLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QWTensorflowLib_Tests.modulemap"; sourceTree = "<group>"; };
+		C5D6CB7CD9346F1DABF7D81087B1ED43 /* Pods-QWTensorflowLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QWTensorflowLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E2962069F3F7C3F856346C720CE6FBB3 /* Pods-QWTensorflowLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QWTensorflowLib_Tests-Info.plist"; sourceTree = "<group>"; };
+		E55880BDFB8E7B14F0557C6F4E093494 /* QWTensorflowLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QWTensorflowLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F017B9F56C7A6A0844C446F50B14B3D8 /* Pods-QWTensorflowLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QWTensorflowLib_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03173DD0E93876F9CE099D72BFD68ED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7FCE3E43A85324237B6CA38895684BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		324F06FB58B9FDCB4645CD9835E40AB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3218E14A9FAE4BF41DB1126C267CAD51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19D0E613696EB900CD508E6E2AB16BB8 /* Pods-QWTensorflowLib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B382546E027437C45E4AF36EFFDB07E6 /* Pods-QWTensorflowLib_Tests.modulemap */,
+				28D959D3AFD1E6FD74AD78D909C2DB55 /* Pods-QWTensorflowLib_Tests-acknowledgements.markdown */,
+				5EFBF815B53455A9EA6346BDBD23B2AE /* Pods-QWTensorflowLib_Tests-acknowledgements.plist */,
+				F017B9F56C7A6A0844C446F50B14B3D8 /* Pods-QWTensorflowLib_Tests-dummy.m */,
+				E2962069F3F7C3F856346C720CE6FBB3 /* Pods-QWTensorflowLib_Tests-Info.plist */,
+				3D7F0BAEE968137D9AC7A7C7E03007A1 /* Pods-QWTensorflowLib_Tests-umbrella.h */,
+				746F61FFC73E3482447CE3122364E4D2 /* Pods-QWTensorflowLib_Tests.debug.xcconfig */,
+				B229DDC0892CF5FF21EAA5CB179529D3 /* Pods-QWTensorflowLib_Tests.release.xcconfig */,
+			);
+			name = "Pods-QWTensorflowLib_Tests";
+			path = "Target Support Files/Pods-QWTensorflowLib_Tests";
+			sourceTree = "<group>";
+		};
+		3FD8BAB1EA3336C72F6D82DC5FC35C47 /* QWTensorflowLib */ = {
+			isa = PBXGroup;
+			children = (
+				93FE898BCB20832EAA73E038CC4748AD /* Pod */,
+				48B63A689893374657E0F908CD25212D /* Support Files */,
+			);
+			name = QWTensorflowLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		48B63A689893374657E0F908CD25212D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFD364057C144D27A8D0CD5A64BE7B75 /* QWTensorflowLib.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QWTensorflowLib";
+			sourceTree = "<group>";
+		};
+		806D93206BD95298FCEDF343130FF368 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FD8BAB1EA3336C72F6D82DC5FC35C47 /* QWTensorflowLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		93FE898BCB20832EAA73E038CC4748AD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7425112B05C393333DDC645B02F2D34E /* LICENSE */,
+				E55880BDFB8E7B14F0557C6F4E093494 /* QWTensorflowLib.podspec */,
+				87C1FA65C9F6EED0B4DDCE2BBC9E0D27 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		ADECECD5848CF1AF2D66477FF9CBDFB6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCF0B3F6B275EF10E5DC7EA2C4353F68 /* Pods-QWTensorflowLib_Example */,
+				19D0E613696EB900CD508E6E2AB16BB8 /* Pods-QWTensorflowLib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CCF0B3F6B275EF10E5DC7EA2C4353F68 /* Pods-QWTensorflowLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				23A7041CE14A0845F884AD7B92736207 /* Pods-QWTensorflowLib_Example.modulemap */,
+				C5D6CB7CD9346F1DABF7D81087B1ED43 /* Pods-QWTensorflowLib_Example-acknowledgements.markdown */,
+				9C5C482F441989634BFD4A35E972BE07 /* Pods-QWTensorflowLib_Example-acknowledgements.plist */,
+				758C7D4D32CBAED6ECB9AE949F156297 /* Pods-QWTensorflowLib_Example-dummy.m */,
+				149CC2B1EA5198BA31021AB47C04094A /* Pods-QWTensorflowLib_Example-Info.plist */,
+				40217258DA7A7EE6EE1B592E7BE160C6 /* Pods-QWTensorflowLib_Example-umbrella.h */,
+				66E88D891FDCAD298691C15238D1D9B4 /* Pods-QWTensorflowLib_Example.debug.xcconfig */,
+				6950277918DE425A8FD63B544BB3A699 /* Pods-QWTensorflowLib_Example.release.xcconfig */,
+			);
+			name = "Pods-QWTensorflowLib_Example";
+			path = "Target Support Files/Pods-QWTensorflowLib_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				806D93206BD95298FCEDF343130FF368 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D9E2A67CF4740FABBF3B99D760E4EAF8 /* Products */,
+				ADECECD5848CF1AF2D66477FF9CBDFB6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9E2A67CF4740FABBF3B99D760E4EAF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				567195E8A16B802C8B8E36E259707F24 /* Pods_QWTensorflowLib_Example.framework */,
+				8BB9F9992422C432A5E6DCD7D48F925F /* Pods_QWTensorflowLib_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4975710EFBEFDAB3D40D8DB3FC5C8906 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E05C59D0CDF5B65A703BA78D1FA03D6D /* Pods-QWTensorflowLib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3F6EE5CC2DB1F0F44691B075BC73F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A928C6AE823AC3A673FB6971665A3AA /* Pods-QWTensorflowLib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1334F4062AF5361B195AA6AC7FC55ECE /* Pods-QWTensorflowLib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4416E215D694BD7AE2EDA74E69DE7AF /* Build configuration list for PBXNativeTarget "Pods-QWTensorflowLib_Example" */;
+			buildPhases = (
+				4975710EFBEFDAB3D40D8DB3FC5C8906 /* Headers */,
+				CEE03BB3432BC287DF759E9566CEC7B9 /* Sources */,
+				03173DD0E93876F9CE099D72BFD68ED5 /* Frameworks */,
+				C19E87B02462521101DEED2CD15C9A32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F46599B8EC5B6BB4A8000580A2618938 /* PBXTargetDependency */,
+			);
+			name = "Pods-QWTensorflowLib_Example";
+			productName = "Pods-QWTensorflowLib_Example";
+			productReference = 567195E8A16B802C8B8E36E259707F24 /* Pods_QWTensorflowLib_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4D945ADD7B407EDDC6D71CDAEEBFEC41 /* Pods-QWTensorflowLib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC18A1FBFB7311DFF53A85887DA5224F /* Build configuration list for PBXNativeTarget "Pods-QWTensorflowLib_Tests" */;
+			buildPhases = (
+				FF3F6EE5CC2DB1F0F44691B075BC73F7 /* Headers */,
+				524D8E2A443916A3001DDBA7F1A60E5B /* Sources */,
+				324F06FB58B9FDCB4645CD9835E40AB2 /* Frameworks */,
+				627A02D1358E6AF2E3C728CF075B7907 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57CD6369F06A627BA5116A7BE9A6A152 /* PBXTargetDependency */,
+			);
+			name = "Pods-QWTensorflowLib_Tests";
+			productName = "Pods-QWTensorflowLib_Tests";
+			productReference = 8BB9F9992422C432A5E6DCD7D48F925F /* Pods_QWTensorflowLib_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D9E2A67CF4740FABBF3B99D760E4EAF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1334F4062AF5361B195AA6AC7FC55ECE /* Pods-QWTensorflowLib_Example */,
+				4D945ADD7B407EDDC6D71CDAEEBFEC41 /* Pods-QWTensorflowLib_Tests */,
+				ACCF2C9A797FDDB9DA5E34CFA70E20E8 /* QWTensorflowLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		627A02D1358E6AF2E3C728CF075B7907 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19E87B02462521101DEED2CD15C9A32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		524D8E2A443916A3001DDBA7F1A60E5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F5C12714AEED39D7B98E8BA632B053 /* Pods-QWTensorflowLib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE03BB3432BC287DF759E9566CEC7B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53BD8D627E66967607A831AAC3B01FC8 /* Pods-QWTensorflowLib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57CD6369F06A627BA5116A7BE9A6A152 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QWTensorflowLib_Example";
+			target = 1334F4062AF5361B195AA6AC7FC55ECE /* Pods-QWTensorflowLib_Example */;
+			targetProxy = 0D7B38DD478354428279B84F59310974 /* PBXContainerItemProxy */;
+		};
+		F46599B8EC5B6BB4A8000580A2618938 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QWTensorflowLib;
+			target = ACCF2C9A797FDDB9DA5E34CFA70E20E8 /* QWTensorflowLib */;
+			targetProxy = C032AFC3F5505D2523773A87648D16DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CEAA47C3C895286F0CFD0359A8715D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFD364057C144D27A8D0CD5A64BE7B75 /* QWTensorflowLib.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		455354C17953704DC0F79A801FC1B991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6950277918DE425A8FD63B544BB3A699 /* Pods-QWTensorflowLib_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QWTensorflowLib_Example/Pods-QWTensorflowLib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QWTensorflowLib_Example/Pods-QWTensorflowLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8C9070A2B9BC04E5D883A9EE2106BCC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFD364057C144D27A8D0CD5A64BE7B75 /* QWTensorflowLib.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F7F999B108121EA9DBC847823125E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 746F61FFC73E3482447CE3122364E4D2 /* Pods-QWTensorflowLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QWTensorflowLib_Tests/Pods-QWTensorflowLib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QWTensorflowLib_Tests/Pods-QWTensorflowLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B089BD8CD639C5B22DBAA6FEA6A772C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B229DDC0892CF5FF21EAA5CB179529D3 /* Pods-QWTensorflowLib_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QWTensorflowLib_Tests/Pods-QWTensorflowLib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QWTensorflowLib_Tests/Pods-QWTensorflowLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4B7A2C228602E613BEE68764E1FEAA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66E88D891FDCAD298691C15238D1D9B4 /* Pods-QWTensorflowLib_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QWTensorflowLib_Example/Pods-QWTensorflowLib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QWTensorflowLib_Example/Pods-QWTensorflowLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C74425E3CC831AF2F4C0E01B9B6B2C20 /* Build configuration list for PBXAggregateTarget "QWTensorflowLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CEAA47C3C895286F0CFD0359A8715D0 /* Debug */,
+				8C9070A2B9BC04E5D883A9EE2106BCC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC18A1FBFB7311DFF53A85887DA5224F /* Build configuration list for PBXNativeTarget "Pods-QWTensorflowLib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F7F999B108121EA9DBC847823125E94 /* Debug */,
+				B089BD8CD639C5B22DBAA6FEA6A772C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4416E215D694BD7AE2EDA74E69DE7AF /* Build configuration list for PBXNativeTarget "Pods-QWTensorflowLib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4B7A2C228602E613BEE68764E1FEAA3 /* Debug */,
+				455354C17953704DC0F79A801FC1B991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
