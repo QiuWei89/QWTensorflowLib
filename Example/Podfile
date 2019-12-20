@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'QWTensorflowLib_Example' do
+  pod 'QWTensorflowLib', :path => '../'
+
+  target 'QWTensorflowLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
