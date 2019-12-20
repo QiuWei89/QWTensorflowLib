@@ -28,15 +28,18 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/QiuWei89/QWTensorflowLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+  s.platform = :ios
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'QWTensorflowLib/Classes/**/*'
   s.preserve_paths = 'QWTensorflowLib/lib/**/*'
   s.vendored_libraries = 'QWTensorflowLib/lib/libprotobuf-lite.a','QWTensorflowLib/lib/libprotobuf.a','QWTensorflowLib/lib/libtensorflow-core.a','QWTensorflowLib/lib/libnsync.a'
 
+  s.libraries = 'protobuf-lite', 'protobuf', 'tensorflow-core', 'nsync'
+
   s.frameworks = 'Accelerate'
 
-  s.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphonesimulator*]' => '',"HEADER_SEARCH_PATHS" => "$(inherited) '$(PODS_TARGET_SRCROOT)/QWTensorflowLib/lib' '$(PODS_TARGET_SRCROOT)/QWTensorflowLib/lib/tensorflow/contrib/makefile/downloads' '$(PODS_TARGET_SRCROOT)/QWTensorflowLib/lib/tensorflow/contrib/makefile/downloads/eigen' '$(PODS_TARGET_SRCROOT)/QWTensorflowLib/lib/tensorflow/contrib/makefile/downloads/protobuf/src' '$(PODS_TARGET_SRCROOT)/QWTensorflowLib/lib/tensorflow/contrib/makefile/gen/proto' '$(PODS_TARGET_SRCROOT)/QWTensorflowLib/lib/tensorflow/contrib/makefile/downloads/nsync/public' '$(PODS_TARGET_SRCROOT)/QWTensorflowLib/lib/tensorflow/contrib/makefile/downloads/absl'"}
+  s.pod_target_xcconfig = {"HEADER_SEARCH_PATHS" => "$(inherited) '$(PODS_TARGET_SRCROOT)/QWTensorflowLib/lib' '$(PODS_TARGET_SRCROOT)/QWTensorflowLib/lib/tensorflow/contrib/makefile/downloads' '$(PODS_TARGET_SRCROOT)/QWTensorflowLib/lib/tensorflow/contrib/makefile/downloads/eigen' '$(PODS_TARGET_SRCROOT)/QWTensorflowLib/lib/tensorflow/contrib/makefile/downloads/protobuf/src' '$(PODS_TARGET_SRCROOT)/QWTensorflowLib/lib/tensorflow/contrib/makefile/gen/proto' '$(PODS_TARGET_SRCROOT)/QWTensorflowLib/lib/tensorflow/contrib/makefile/downloads/nsync/public' '$(PODS_TARGET_SRCROOT)/QWTensorflowLib/lib/tensorflow/contrib/makefile/downloads/absl'", 'VALID_ARCHS[sdk=iphonesimulator*]' => ''}
 
   s.user_target_xcconfig = {"OTHER_LDFLAGS" => ['$(inherited)', '$(PODS_ROOT)/QWTensorflowLib/QWTensorflowLib/lib/libnsync.a', '-force_load', '$(PODS_ROOT)/QWTensorflowLib/QWTensorflowLib/lib/libtensorflow-core.a', '$(PODS_ROOT)/QWTensorflowLib/QWTensorflowLib/lib/libprotobuf-lite.a', '$(PODS_ROOT)/QWTensorflowLib/QWTensorflowLib/lib/libprotobuf.a']}
 
