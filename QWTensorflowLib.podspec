@@ -32,13 +32,13 @@ Pod::Spec.new do |s|
 
   s.source_files = 'QWTensorflowLib/Classes/**/*'
   s.preserve_paths = 'QWTensorflowLib/lib/**/*'
-    s.vendored_libraries = 'QWTensorflowLib/lib/libprotobuf-lite.a','QWTensorflowLib/lib/libprotobuf.a','QWTensorflowLib/lib/libtensorflow-core.a','QWTensorflowLib/lib/libnsync.a'
+  s.vendored_libraries = 'QWTensorflowLib/lib/libprotobuf-lite.a','QWTensorflowLib/lib/libprotobuf.a','QWTensorflowLib/lib/libtensorflow-core.a','QWTensorflowLib/lib/libnsync.a'
 
   s.frameworks = 'Accelerate'
 
   s.pod_target_xcconfig = {"HEADER_SEARCH_PATHS" => "$(inherited) '$(PODS_TARGET_SRCROOT)/QWTensorflowLib/lib' '$(PODS_TARGET_SRCROOT)/QWTensorflowLib/lib/tensorflow/contrib/makefile/downloads' '$(PODS_TARGET_SRCROOT)/QWTensorflowLib/lib/tensorflow/contrib/makefile/downloads/eigen' '$(PODS_TARGET_SRCROOT)/QWTensorflowLib/lib/tensorflow/contrib/makefile/downloads/protobuf/src' '$(PODS_TARGET_SRCROOT)/QWTensorflowLib/lib/tensorflow/contrib/makefile/gen/proto' '$(PODS_TARGET_SRCROOT)/QWTensorflowLib/lib/tensorflow/contrib/makefile/downloads/nsync/public' '$(PODS_TARGET_SRCROOT)/QWTensorflowLib/lib/tensorflow/contrib/makefile/downloads/absl'"}
 
-  s.user_target_xcconfig = {"OTHER_LDFLAGS" => ['$(inherited)', '$(PODS_ROOT)/QWTensorflowLib/QWTensorflowLib/lib/nsync.a', '-force_load', '$(PODS_ROOT)/QWTensorflowLib/QWTensorflowLib/lib/libtensorflow-core.a', '$(PODS_ROOT)/QWTensorflowLib/QWTensorflowLib/lib/libprotobuf-lite.a', '$(PODS_ROOT)/QWTensorflowLib/QWTensorflowLib/lib/libprotobuf.a']}
+  s.user_target_xcconfig = {"OTHER_LDFLAGS" => ['$(inherited)', '$(PODS_ROOT)/QWTensorflowLib/QWTensorflowLib/lib/libnsync.a', '-force_load', '$(PODS_ROOT)/QWTensorflowLib/QWTensorflowLib/lib/libtensorflow-core.a', '$(PODS_ROOT)/QWTensorflowLib/QWTensorflowLib/lib/libprotobuf-lite.a', '$(PODS_ROOT)/QWTensorflowLib/QWTensorflowLib/lib/libprotobuf.a']}
 
   s.library = 'c++'
 
