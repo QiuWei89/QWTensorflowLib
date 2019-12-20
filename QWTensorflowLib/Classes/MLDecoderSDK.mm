@@ -7,17 +7,19 @@
 //
 
 #import "MLDecoderSDK.h"
-#include "Tdnn.h"
+//#include "Tdnn.h"
+#include "tensorflow/core/framework/graph.pb.h"
+#include "tensorflow/core/framework/tensor.h"
 
 @implementation MLDecoderSDK
 
 - (void)loadModel:(NSString *)modelPath
 {
-    std::string model_path = (std::string)[modelPath fileSystemRepresentation];
-    int status = Dnnvad::LoadDnnModle(model_path);
-    if (status == 0) {
-        NSLog(@"model load success");
-    }
+//    std::string model_path = (std::string)[modelPath fileSystemRepresentation];
+//    int status = Dnnvad::LoadDnnModle(model_path);
+//    if (status == 0) {
+//        NSLog(@"model load success");
+//    }
     NSLog(@"good job!");
 }
 
