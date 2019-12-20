@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = QWTensorflowLib;
+			productName = QWTensorflowLib;
 		};
 /* End PBXAggregateTarget section */
 
@@ -51,23 +52,23 @@
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3D7F0BAEE968137D9AC7A7C7E03007A1 /* Pods-QWTensorflowLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QWTensorflowLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		40217258DA7A7EE6EE1B592E7BE160C6 /* Pods-QWTensorflowLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QWTensorflowLib_Example-umbrella.h"; sourceTree = "<group>"; };
-		567195E8A16B802C8B8E36E259707F24 /* Pods_QWTensorflowLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QWTensorflowLib_Example.framework; path = "Pods-QWTensorflowLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		567195E8A16B802C8B8E36E259707F24 /* Pods_QWTensorflowLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QWTensorflowLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EFBF815B53455A9EA6346BDBD23B2AE /* Pods-QWTensorflowLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QWTensorflowLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		66E88D891FDCAD298691C15238D1D9B4 /* Pods-QWTensorflowLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QWTensorflowLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6950277918DE425A8FD63B544BB3A699 /* Pods-QWTensorflowLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QWTensorflowLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7425112B05C393333DDC645B02F2D34E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7425112B05C393333DDC645B02F2D34E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		746F61FFC73E3482447CE3122364E4D2 /* Pods-QWTensorflowLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QWTensorflowLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		758C7D4D32CBAED6ECB9AE949F156297 /* Pods-QWTensorflowLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QWTensorflowLib_Example-dummy.m"; sourceTree = "<group>"; };
-		87C1FA65C9F6EED0B4DDCE2BBC9E0D27 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		8BB9F9992422C432A5E6DCD7D48F925F /* Pods_QWTensorflowLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QWTensorflowLib_Tests.framework; path = "Pods-QWTensorflowLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87C1FA65C9F6EED0B4DDCE2BBC9E0D27 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8BB9F9992422C432A5E6DCD7D48F925F /* Pods_QWTensorflowLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QWTensorflowLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C5C482F441989634BFD4A35E972BE07 /* Pods-QWTensorflowLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QWTensorflowLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AFD364057C144D27A8D0CD5A64BE7B75 /* QWTensorflowLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QWTensorflowLib.xcconfig; sourceTree = "<group>"; };
 		B229DDC0892CF5FF21EAA5CB179529D3 /* Pods-QWTensorflowLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QWTensorflowLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B382546E027437C45E4AF36EFFDB07E6 /* Pods-QWTensorflowLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QWTensorflowLib_Tests.modulemap"; sourceTree = "<group>"; };
 		C5D6CB7CD9346F1DABF7D81087B1ED43 /* Pods-QWTensorflowLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QWTensorflowLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E2962069F3F7C3F856346C720CE6FBB3 /* Pods-QWTensorflowLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QWTensorflowLib_Tests-Info.plist"; sourceTree = "<group>"; };
-		E55880BDFB8E7B14F0557C6F4E093494 /* QWTensorflowLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QWTensorflowLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E55880BDFB8E7B14F0557C6F4E093494 /* QWTensorflowLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = QWTensorflowLib.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		F017B9F56C7A6A0844C446F50B14B3D8 /* Pods-QWTensorflowLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QWTensorflowLib_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -446,8 +447,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
