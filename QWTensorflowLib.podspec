@@ -32,6 +32,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'QWTensorflowLib/Classes/**/*'
   s.preserve_paths = 'QWTensorflowLib/lib/**/*'
+    s.vendored_libraries = 'QWTensorflowLib/lib/libprotobuf-lite.a','QWTensorflowLib/lib/libprotobuf.a','QWTensorflowLib/lib/libtensorflow-core.a','QWTensorflowLib/lib/libnsync.a'
 
   s.frameworks = 'Accelerate'
 
